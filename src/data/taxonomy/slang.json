@@ -1,0 +1,141 @@
+{
+  "id": "slang",
+  "label": "Slang & Internet Tone",
+  "description": "High-velocity slang, memes, and shorthand cues.",
+  "children": [
+    {
+      "id": "slang_vibes",
+      "label": "Vibes & Aesthetic",
+      "triggers": [
+        {
+          "token": "cozy",
+          "emoji": "🧣",
+          "priority": 68,
+          "intensity": "low",
+          "aliases": ["snug"]
+        },
+        {
+          "token": "feral",
+          "emoji": "🐈‍⬛",
+          "priority": 77,
+          "intensity": "high",
+          "aliases": ["goblin_mode"]
+        },
+        {
+          "token": "highkey",
+          "emoji": "🌞",
+          "priority": 65,
+          "intensity": "medium",
+          "aliases": ["loudly"]
+        },
+        {
+          "token": "lowkey",
+          "emoji": "🌙",
+          "priority": 64,
+          "intensity": "low",
+          "aliases": ["quietly"]
+        }
+      ]
+    },
+    {
+      "id": "slang_memes",
+      "label": "Meme Language",
+      "triggers": [
+        {
+          "token": "based",
+          "emoji": "🧱",
+          "priority": 75,
+          "intensity": "medium"
+        },
+        {
+          "token": "ratio",
+          "emoji": "➗",
+          "priority": 66,
+          "intensity": "low"
+        },
+        {
+          "token": "receipts",
+          "emoji": "📸",
+          "priority": 72,
+          "intensity": "medium",
+          "aliases": ["screens"]
+        }
+      ]
+    },
+    {
+      "id": "slang_stan",
+      "label": "Stan & Fandom",
+      "triggers": [
+        {
+          "token": "stan",
+          "emoji": "🙇‍♀️",
+          "priority": 74,
+          "intensity": "medium"
+        },
+        {
+          "token": "bias",
+          "emoji": "❤️",
+          "priority": 70,
+          "intensity": "medium"
+        },
+        {
+          "token": "comeback",
+          "emoji": "🎤",
+          "priority": 69,
+          "intensity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "slang_shorthand",
+      "label": "Text Shorthand",
+      "triggers": [
+        {
+          "token": "oml",
+          "emoji": "😱",
+          "priority": 71,
+          "intensity": "high"
+        },
+        {
+          "token": "fr",
+          "emoji": "🔥",
+          "priority": 70,
+          "intensity": "medium"
+        },
+        {
+          "token": "smh",
+          "emoji": "🤦",
+          "priority": 69,
+          "intensity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "slang_irony",
+      "label": "Irony & Meta",
+      "triggers": [
+        {
+          "token": "sarcasm_tag",
+          "emoji": ":sarcasm_tag:",
+          "priority": 90,
+          "intensity": "medium",
+          "custom": true,
+          "aliases": ["/s"]
+        },
+        {
+          "token": "clownery",
+          "emoji": "🤡",
+          "priority": 73,
+          "intensity": "medium"
+        },
+        {
+          "token": "ratioed",
+          "emoji": "📉",
+          "priority": 65,
+          "intensity": "medium"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,107 @@
+{
+  "id": "meta",
+  "label": "Syntax & Meta Modifiers",
+  "description": "Tone, intensity, urgency, and conversation control markers.",
+  "children": [
+    {
+      "id": "meta_intensity",
+      "label": "Intensity Markers",
+      "triggers": [
+        {
+          "token": "low_intensity",
+          "emoji": "🔹",
+          "priority": 50,
+          "intensity": "low"
+        },
+        {
+          "token": "medium_intensity",
+          "emoji": "🔸",
+          "priority": 51,
+          "intensity": "medium"
+        },
+        {
+          "token": "high_intensity",
+          "emoji": "🔺",
+          "priority": 52,
+          "intensity": "high"
+        }
+      ]
+    },
+    {
+      "id": "meta_time_urgency",
+      "label": "Time & Urgency",
+      "triggers": [
+        {
+          "token": "asap",
+          "emoji": "⚡",
+          "priority": 85,
+          "intensity": "high"
+        },
+        {
+          "token": "queued",
+          "emoji": "⏳",
+          "priority": 60,
+          "intensity": "medium"
+        },
+        {
+          "token": "weekender",
+          "emoji": "🛻",
+          "priority": 58,
+          "intensity": "low"
+        }
+      ]
+    },
+    {
+      "id": "meta_conversation_control",
+      "label": "Conversation Controls",
+      "triggers": [
+        {
+          "token": "spoiler",
+          "emoji": "🚫👀",
+          "priority": 70,
+          "intensity": "medium"
+        },
+        {
+          "token": "back_on_topic",
+          "emoji": "🔁",
+          "priority": 63,
+          "intensity": "medium"
+        },
+        {
+          "token": "fact_check",
+          "emoji": "✅",
+          "priority": 72,
+          "intensity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "meta_tone_switches",
+      "label": "Tone Switches",
+      "triggers": [
+        {
+          "token": "tone_sincere",
+          "emoji": ":tone_sincere:",
+          "priority": 80,
+          "intensity": "medium",
+          "custom": true
+        },
+        {
+          "token": "tone_sarcastic",
+          "emoji": ":tone_sarcastic:",
+          "priority": 82,
+          "intensity": "medium",
+          "custom": true
+        },
+        {
+          "token": "tone_whisper",
+          "emoji": ":tone_soft:",
+          "priority": 60,
+          "intensity": "low",
+          "custom": true
+        }
+      ]
+    }
+  ]
+}
+

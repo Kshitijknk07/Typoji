@@ -1,0 +1,213 @@
+{
+  "id": "emotions",
+  "label": "Emotions",
+  "description": "Mood-centric triggers that cover the entire emotional spectrum.",
+  "children": [
+    {
+      "id": "emotions_positive",
+      "label": "Positive",
+      "children": [
+        {
+          "id": "emotions_positive_joyful_burst",
+          "label": "Joyful Burst",
+          "triggers": [
+            {
+              "token": "happy",
+              "emoji": "🙂",
+              "priority": 80,
+              "intensity": "medium",
+              "aliases": ["glad", "joyful"]
+            },
+            {
+              "token": "ecstatic",
+              "emoji": "🤩",
+              "priority": 90,
+              "intensity": "high",
+              "aliases": ["elated", "overjoyed"]
+            },
+            {
+              "token": "beaming",
+              "emoji": "😁",
+              "priority": 75,
+              "intensity": "medium"
+            }
+          ]
+        },
+        {
+          "id": "emotions_positive_calm_grounded",
+          "label": "Calm & Grounded",
+          "triggers": [
+            {
+              "token": "serene",
+              "emoji": "😌",
+              "priority": 70,
+              "intensity": "low",
+              "aliases": ["zen", "peaceful"]
+            },
+            {
+              "token": "chill",
+              "emoji": "😎",
+              "priority": 65,
+              "intensity": "low",
+              "aliases": ["cool", "laidback"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emotions_neutral_mixed",
+      "label": "Neutral & Mixed",
+      "children": [
+        {
+          "id": "emotions_neutral_curiosity",
+          "label": "Curious Thinkers",
+          "triggers": [
+            {
+              "token": "pondering",
+              "emoji": "🤔",
+              "priority": 68,
+              "intensity": "medium",
+              "aliases": ["hmm", "thinking"]
+            },
+            {
+              "token": "intrigued",
+              "emoji": "🧐",
+              "priority": 67,
+              "intensity": "medium"
+            }
+          ]
+        },
+        {
+          "id": "emotions_neutral_masked",
+          "label": "Polite Masking",
+          "triggers": [
+            {
+              "token": "polite_smile",
+              "emoji": "🙂",
+              "priority": 60,
+              "intensity": "low",
+              "aliases": ["service_smile"],
+              "custom": false
+            },
+            {
+              "token": "nervous_laugh",
+              "emoji": "😅",
+              "priority": 72,
+              "intensity": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emotions_negative",
+      "label": "Negative Spectrum",
+      "children": [
+        {
+          "id": "emotions_negative_sadness",
+          "label": "Sadness Arc",
+          "triggers": [
+            {
+              "token": "heartbroken",
+              "emoji": "💔",
+              "priority": 85,
+              "intensity": "high",
+              "aliases": ["devastated"]
+            },
+            {
+              "token": "melancholic",
+              "emoji": "😔",
+              "priority": 74,
+              "intensity": "medium"
+            }
+          ]
+        },
+        {
+          "id": "emotions_negative_anger",
+          "label": "Anger Arc",
+          "triggers": [
+            {
+              "token": "fuming",
+              "emoji": "😤",
+              "priority": 78,
+              "intensity": "high",
+              "aliases": ["simmering"]
+            },
+            {
+              "token": "raging",
+              "emoji": "🤬",
+              "priority": 88,
+              "intensity": "high"
+            }
+          ]
+        },
+        {
+          "id": "emotions_negative_anxiety",
+          "label": "Fear & Anxiety",
+          "triggers": [
+            {
+              "token": "anxious",
+              "emoji": "😰",
+              "priority": 80,
+              "intensity": "high"
+            },
+            {
+              "token": "dread",
+              "emoji": "😨",
+              "priority": 77,
+              "intensity": "high"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emotions_nuanced_sarcastic",
+      "label": "Nuanced & Sarcastic",
+      "children": [
+        {
+          "id": "emotions_nuanced_deadpan",
+          "label": "Deadpan Sarcasm",
+          "triggers": [
+            {
+              "token": "lovely",
+              "emoji": ":deadpan_face:",
+              "priority": 95,
+              "intensity": "medium",
+              "custom": true,
+              "aliases": ["amazing", "iconic"]
+            },
+            {
+              "token": "sure_jan",
+              "emoji": "🙃",
+              "priority": 82,
+              "intensity": "medium",
+              "aliases": ["sure", "totally"]
+            }
+          ]
+        },
+        {
+          "id": "emotions_nuanced_self_deprecating",
+          "label": "Self-Deprecating",
+          "triggers": [
+            {
+              "token": "clown",
+              "emoji": "🤡",
+              "priority": 76,
+              "intensity": "medium",
+              "aliases": ["clowning"]
+            },
+            {
+              "token": "spiral",
+              "emoji": "🌀",
+              "priority": 70,
+              "intensity": "medium"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

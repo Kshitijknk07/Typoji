@@ -1,0 +1,128 @@
+{
+  "id": "professional",
+  "label": "Professional & Domain-Specific",
+  "description": "Industry and workflow-specific triggers.",
+  "children": [
+    {
+      "id": "professional_medical",
+      "label": "Medical & Wellness",
+      "triggers": [
+        {
+          "token": "on_rounds",
+          "emoji": "🚑",
+          "priority": 70,
+          "intensity": "medium"
+        },
+        {
+          "token": "scrubs",
+          "emoji": "🩺",
+          "priority": 65,
+          "intensity": "medium"
+        },
+        {
+          "token": "rest_order",
+          "emoji": "🛏️",
+          "priority": 60,
+          "intensity": "low"
+        }
+      ]
+    },
+    {
+      "id": "professional_academia",
+      "label": "Education & Academia",
+      "triggers": [
+        {
+          "token": "lecture",
+          "emoji": "🎓",
+          "priority": 64,
+          "intensity": "medium"
+        },
+        {
+          "token": "finals",
+          "emoji": "😵‍💫",
+          "priority": 72,
+          "intensity": "high"
+        },
+        {
+          "token": "thesis",
+          "emoji": "🧾",
+          "priority": 66,
+          "intensity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "professional_finance_ops",
+      "label": "Finance & Ops",
+      "triggers": [
+        {
+          "token": "quarterly",
+          "emoji": "📊",
+          "priority": 70,
+          "intensity": "medium"
+        },
+        {
+          "token": "audit",
+          "emoji": "🧾",
+          "priority": 69,
+          "intensity": "medium"
+        },
+        {
+          "token": "runway",
+          "emoji": "⏱️",
+          "priority": 68,
+          "intensity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "professional_creative",
+      "label": "Creative & Media",
+      "triggers": [
+        {
+          "token": "storyboard",
+          "emoji": "🎞️",
+          "priority": 65,
+          "intensity": "medium"
+        },
+        {
+          "token": "render",
+          "emoji": "🖥️",
+          "priority": 63,
+          "intensity": "medium"
+        },
+        {
+          "token": "encore",
+          "emoji": "🔁",
+          "priority": 60,
+          "intensity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "professional_fieldwork",
+      "label": "Safety & Field Work",
+      "triggers": [
+        {
+          "token": "ppe",
+          "emoji": "🦺",
+          "priority": 67,
+          "intensity": "medium"
+        },
+        {
+          "token": "site_visit",
+          "emoji": "🚧",
+          "priority": 66,
+          "intensity": "medium"
+        },
+        {
+          "token": "weather_hazard",
+          "emoji": "🌪️",
+          "priority": 70,
+          "intensity": "high"
+        }
+      ]
+    }
+  ]
+}
+

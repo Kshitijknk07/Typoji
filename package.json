@@ -1,0 +1,18 @@
+{
+  "name": "typoji",
+  "version": "0.1.0",
+  "description": "Typoji — intelligent emoji replacement toolkit",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build:triggers": "node scripts/build-trigger-map.mjs",
+    "build:extension": "tsup && mkdir -p dist/extension && cp extension/manifest.json dist/extension/manifest.json",
+    "lint": "echo \"No linter configured yet\"",
+    "test": "echo \"No tests configured yet\""
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.31",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}

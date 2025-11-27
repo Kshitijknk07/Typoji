@@ -1,0 +1,111 @@
+{
+  "id": "culture",
+  "label": "Cultural & Regional Flavors",
+  "description": "Global greetings, festivals, slang, and mood markers.",
+  "children": [
+    {
+      "id": "culture_greetings",
+      "label": "Greetings & Gestures",
+      "triggers": [
+        {
+          "token": "namaste",
+          "emoji": "🙏",
+          "priority": 80,
+          "intensity": "medium"
+        },
+        {
+          "token": "wai",
+          "emoji": "🙏🏼",
+          "priority": 70,
+          "intensity": "medium"
+        },
+        {
+          "token": "shaka",
+          "emoji": "🤙",
+          "priority": 68,
+          "intensity": "low",
+          "aliases": ["hang_loose"]
+        }
+      ]
+    },
+    {
+      "id": "culture_festivals",
+      "label": "Festivals & Traditions",
+      "triggers": [
+        {
+          "token": "diwali",
+          "emoji": "🪔",
+          "priority": 85,
+          "intensity": "high"
+        },
+        {
+          "token": "eid",
+          "emoji": "🌙",
+          "priority": 80,
+          "intensity": "medium"
+        },
+        {
+          "token": "lunar_new_year",
+          "emoji": "🧧",
+          "priority": 78,
+          "intensity": "medium"
+        },
+        {
+          "token": "pride",
+          "emoji": "🏳️‍🌈",
+          "priority": 88,
+          "intensity": "high"
+        }
+      ]
+    },
+    {
+      "id": "culture_food_slang",
+      "label": "Food & Slang Mashups",
+      "triggers": [
+        {
+          "token": "chai",
+          "emoji": "☕",
+          "priority": 65,
+          "intensity": "low"
+        },
+        {
+          "token": "boba",
+          "emoji": "🧋",
+          "priority": 70,
+          "intensity": "medium"
+        },
+        {
+          "token": "biriyani",
+          "emoji": "🍛",
+          "priority": 68,
+          "intensity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "culture_regional_moods",
+      "label": "Regional Mood Tags",
+      "triggers": [
+        {
+          "token": "island_time",
+          "emoji": "🏝️",
+          "priority": 60,
+          "intensity": "low"
+        },
+        {
+          "token": "monsoon_mood",
+          "emoji": "🌧️",
+          "priority": 64,
+          "intensity": "medium"
+        },
+        {
+          "token": "metro_rush",
+          "emoji": "🚇",
+          "priority": 66,
+          "intensity": "medium"
+        }
+      ]
+    }
+  ]
+}
+

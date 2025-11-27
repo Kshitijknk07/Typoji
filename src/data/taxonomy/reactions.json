@@ -1,0 +1,135 @@
+{
+  "id": "reactions",
+  "label": "Reactions",
+  "description": "Real-time responses ranging from hype to callouts.",
+  "children": [
+    {
+      "id": "reactions_hype",
+      "label": "Approval & Hype",
+      "triggers": [
+        {
+          "token": "fire",
+          "emoji": "🔥",
+          "priority": 85,
+          "intensity": "high",
+          "aliases": ["lit", "heat"],
+          "additionalTags": ["slang/hype"]
+        },
+        {
+          "token": "slay",
+          "emoji": "💅",
+          "priority": 84,
+          "intensity": "high",
+          "aliases": ["serve", "ate"]
+        },
+        {
+          "token": "salute",
+          "emoji": "🫡",
+          "priority": 70,
+          "intensity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "reactions_support",
+      "label": "Support & Empathy",
+      "triggers": [
+        {
+          "token": "proud_of_you",
+          "emoji": "🥹",
+          "priority": 83,
+          "intensity": "high",
+          "aliases": ["so_proud"]
+        },
+        {
+          "token": "hug",
+          "emoji": "🤗",
+          "priority": 75,
+          "intensity": "medium",
+          "aliases": ["hugging", "soft_support"]
+        }
+      ]
+    },
+    {
+      "id": "reactions_disapproval",
+      "label": "Disapproval & Callouts",
+      "triggers": [
+        {
+          "token": "meh",
+          "emoji": "😐",
+          "priority": 60,
+          "intensity": "low"
+        },
+        {
+          "token": "cringe",
+          "emoji": "😬",
+          "priority": 74,
+          "intensity": "medium",
+          "aliases": ["secondhand"]
+        },
+        {
+          "token": "timeout",
+          "emoji": "⏱️",
+          "priority": 65,
+          "intensity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "reactions_humor",
+      "label": "Humor Stack",
+      "triggers": [
+        {
+          "token": "lol",
+          "emoji": "😆",
+          "priority": 80,
+          "intensity": "medium",
+          "aliases": ["lmao"]
+        },
+        {
+          "token": "dead",
+          "emoji": "💀",
+          "priority": 86,
+          "intensity": "high",
+          "aliases": ["skull", "ded"],
+          "additionalTags": ["slang/irony"]
+        },
+        {
+          "token": "dry_chuckle",
+          "emoji": ":dry_chuckle:",
+          "priority": 73,
+          "intensity": "low",
+          "custom": true,
+          "aliases": ["heh", "hah"]
+        }
+      ]
+    },
+    {
+      "id": "reactions_sarcastic",
+      "label": "Sarcastic / Passive Aggressive",
+      "triggers": [
+        {
+          "token": "interesting",
+          "emoji": "🙃",
+          "priority": 79,
+          "intensity": "medium",
+          "aliases": ["interesting…"]
+        },
+        {
+          "token": "noted",
+          "emoji": "😑",
+          "priority": 78,
+          "intensity": "medium"
+        },
+        {
+          "token": "cute",
+          "emoji": "😏",
+          "priority": 72,
+          "intensity": "medium",
+          "aliases": ["adorable"]
+        }
+      ]
+    }
+  ]
+}
+
