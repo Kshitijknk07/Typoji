@@ -7,12 +7,20 @@
   "scripts": {
     "build:triggers": "node scripts/build-trigger-map.mjs",
     "build:extension": "tsup && mkdir -p dist/extension && cp extension/manifest.json dist/extension/manifest.json",
-    "lint": "echo \"No linter configured yet\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "test": "echo \"No tests configured yet\""
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.1",
     "@types/chrome": "^0.1.31",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.7.1",
     "tsup": "^8.5.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.0"
   }
 }

@@ -1,5 +1,5 @@
 import triggerMap from "../data/build/trigger-map.json";
-import { TypojiSettings } from "./types";
+import type { TypojiSettings } from "./types";
 
 type TriggerEntry = {
   emoji: string;
@@ -11,9 +11,9 @@ type TriggerEntry = {
   baseToken?: string;
 };
 
-type TriggerRegistry = Record<string, TriggerEntry>;
+type TriggerRegistry = Partial<Record<string, TriggerEntry>>;
 
-const registry = triggerMap as TriggerRegistry;
+const registry: TriggerRegistry = triggerMap as TriggerRegistry;
 
 export type ReplacementCandidate = {
   token: string;
@@ -24,7 +24,7 @@ export type ReplacementCandidate = {
 
 export function findReplacement(
   token: string,
-  settings: TypojiSettings
+  settings: TypojiSettings,
 ): ReplacementCandidate | null {
   const normalized = normalizeToken(token);
   if (!normalized || !settings.enabled) {
@@ -47,11 +47,10 @@ export function findReplacement(
     token: normalized,
     emoji: entry.emoji,
     baseToken: entry.baseToken,
-    tags: entry.tags
+    tags: entry.tags,
   };
 }
 
 function normalizeToken(value: string): string {
   return value.trim().toLowerCase();
 }
-

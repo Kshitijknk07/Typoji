@@ -14,4 +14,3 @@
   },
   "include": ["src", "scripts", "tsup.config.ts"]
 }
-

@@ -65,7 +65,7 @@ function registerTrigger(trigger, tags, nodeId, registry, aliasOf) {
     priority: trigger.priority ?? 50,
     intensity: trigger.intensity ?? "medium",
     tags: Array.from(new Set([...tags, ...(trigger.additionalTags ?? [])])),
-    sourceNode: nodeId
+    sourceNode: nodeId,
   };
 
   if (aliasOf) {
@@ -98,7 +98,7 @@ function walkNode(node, lineage, registry) {
             currentTags,
             node.id,
             registry,
-            trigger.token
+            trigger.token,
           );
         }
       }
@@ -138,4 +138,3 @@ main().catch((error) => {
   console.error("Failed to build trigger map:", error);
   process.exitCode = 1;
 });
-

@@ -1,5 +1,6 @@
 import { getSettings, watchSettings } from "./storage";
-import { defaultSettings, TypojiSettings } from "./types";
+import { defaultSettings } from "./types";
+import type { TypojiSettings } from "./types";
 import { findReplacement } from "./triggerEngine";
 import { SuggestionHost } from "./ui";
 
@@ -8,7 +9,7 @@ type TextEditable = HTMLInputElement | HTMLTextAreaElement;
 const suggestionHost = new SuggestionHost();
 let settings: TypojiSettings = defaultSettings;
 
-init();
+void init();
 
 async function init() {
   settings = await getSettings();
@@ -34,9 +35,10 @@ function handleInput(event: Event) {
     target,
     { word: candidate.word, emoji: replacement.emoji },
     {
-      onAccept: () => applyReplacement(target, candidate.start, candidate.end, replacement.emoji),
-      onDismiss: () => undefined
-    }
+      onAccept: () =>
+        applyReplacement(target, candidate.start, candidate.end, replacement.emoji),
+      onDismiss: () => undefined,
+    },
   );
 }
 
@@ -102,24 +104,29 @@ function extractCandidate(target: TextEditable): Candidate | null {
   return {
     word,
     start: start + 1,
-    end: end + 1
+    end: end + 1,
   };
 }
 
-function applyReplacement(target: TextEditable, start: number, end: number, emoji: string) {
+function applyReplacement(
+  target: TextEditable,
+  start: number,
+  end: number,
+  emoji: string,
+) {
   const value = target.value;
   const nextValue = value.slice(0, start) + emoji + value.slice(end);
   target.value = nextValue;
   const cursor = start + emoji.length;
   target.setSelectionRange(cursor, cursor);
-  const event = typeof InputEvent !== "undefined"
-    ? new InputEvent("input", {
-        bubbles: true,
-        cancelable: true,
-        inputType: "insertReplacementText",
-        data: emoji
-      })
-    : new Event("input", { bubbles: true, cancelable: true });
+  const event =
+    typeof InputEvent !== "undefined"
+      ? new InputEvent("input", {
+          bubbles: true,
+          cancelable: true,
+          inputType: "insertReplacementText",
+          data: emoji,
+        })
+      : new Event("input", { bubbles: true, cancelable: true });
   target.dispatchEvent(event);
 }
-

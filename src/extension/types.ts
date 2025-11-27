@@ -11,6 +11,5 @@ export const defaultSettings: TypojiSettings = {
   enabled: true,
   mode: "auto",
   enabledTags: [],
-  disabledTokens: []
+  disabledTokens: [],
 };
-

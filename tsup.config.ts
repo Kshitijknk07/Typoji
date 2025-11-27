@@ -2,7 +2,7 @@ import { defineConfig } from "tsup";
 
 export default defineConfig({
   entry: {
-    content: "src/extension/content.ts"
+    content: "src/extension/content.ts",
   },
   outDir: "dist/extension",
   format: ["esm"],
@@ -10,6 +10,5 @@ export default defineConfig({
   sourcemap: true,
   clean: true,
   minify: false,
-  dts: false
+  dts: false,
 });
-

@@ -1,4 +1,5 @@
 # Typoji
+
 Typoji changes words that have to do with feelings, like "happy," "skull," or "fire," into the right emoji as you type. It can automatically replace words or ask for confirmation, which makes conversations more fun, expressive, and faster. A simple tool that gives your text some personality without any extra work.
 
 ---
@@ -10,23 +11,27 @@ Typoji relies on a deeply layered taxonomy so it can understand nuance, sarcasm,
 ### 1. Emotions
 
 **Positive Core**
+
 - **Joyful burst** — happy 🙂, delighted 😁, ecstatic 🤩, euphoric 🤗, beaming 😄
 - **Calm & grounded** — content 🙂, serene 🧘, zen 😌, chill 😎, composed 🙂
 - **Proud & winning** — proud 🥹, triumphant 🏆, nailed it 🙌, flex 💪, smug 😏
 - **Warm connections** — grateful 🥰, heartfull ❤️, cherished 💞, hug 🤗, appreciative 🙇
 
 **Neutral & Mixed**
+
 - **Curious thinkers** — hmm 🤔, intrigued 🧐, pondering 🤨, curious 🧠, wonder ✨
 - **Reflective nostalgia** — wistful 🥲, bittersweet 🕰️, reflective 📜, throwback 📼
 - **Polite masking** — polite smile 🙂, nervous laugh 😅, customer service grin 🙂‍↕️
 
 **Negative Spectrum**
+
 - **Sadness arc** — sad 😢, heartbroken 💔, devastated 😭, melancholic 😔, sigh 😮‍💨
 - **Anger arc** — annoyed 😠, pissed 😡, fuming 😤, raging 🤬, simmering 😤
 - **Fear & anxiety** — anxious 😰, panicked 😱, uneasy 😟, stressed 😫, dread 😨
 - **Disgust & distaste** — gross 🤢, unimpressed 😒, side-eye 🙄, nope 😑, bleh 😖
 
 **Nuanced & Sarcastic**
+
 - **Deadpan sarcasm** — "lovely" `:deadpan_face:`, "great" 🙃, "amazing" 🙄, sure 😑, noted 🙃
 - **Mock enthusiasm** — iconic 🤩, stunning 😍, wow 🔥, queen 👑, slay 💅
 - **Self-deprecating** — clown 🤡, oops 😬, facepalm 🤦, spiral 🌀, chaos gremlin 😈
@@ -35,137 +40,176 @@ Typoji relies on a deeply layered taxonomy so it can understand nuance, sarcasm,
 ### 2. Reactions
 
 **Approval / Hype**
+
 - Fire 🔥, lit 🔥, heat 🔥, ate 💯, ate_down 😮‍💨, slay 💅, chef's kiss 👨‍🍳💋, clap 👏, salute 🫡
 
 **Support & Empathy**
+
 - Proud of you 🥹, rooting 🌱, gentle hug 🤗, soft pat 🫶, tea & listen ☕👂
 
 **Disapproval / Callouts**
+
 - Meh 😐, mid 😶, cringe 😬, nope 🚫, stop ✋, timeout ⏱️, flag 🏳️, warning ⚠️
 
 **Shock & Surprise**
+
 - Gasp 😲, shook 😳, woah 😮, jump scare 😱, stunned 🥶, silent scream 😱🫥
 
 **Humor Layers**
+
 - lol 😆, lmao 🤣, dead 💀, skull 💀, feral laugh 🙃, wheeze 😮‍💨, dry chuckle `:dry_chuckle:`
 
 **Sarcastic / Passive Aggressive**
+
 - Interesting 🙃, noted 😑, bold choice 🤨, okay champ 🫠, cute 😏, sure thing 😌
 
 ### 3. Slang & Internet Tone
 
 **Vibes & Aesthetic**
+
 - cozy 🧣, soft 🧸, cottage 🍵, moody 🌧️, lowkey 🕯️, highkey 🌞, chaotic 🌪️, feral 🐈‍⬛
 
 **Meme Language**
+
 - Based 🧱, cringe 😬, receipts 📸, ratio ➗, bet 🎲, big yikes 😳, it me 🙋, this you 👉
 
 **Stan & Fandom**
+
 - stan 🙇‍♀️, bias ❤️, new era 🌅, comeback 🎤, stream now 📡, anti 🚫, fandom war ⚔️
 
 **Text Shorthand**
+
 - oml 😱, fr 🔥, smh 🤦, tfw 🤲, iykyk 👁️, bet ✅, vibing 🎧, same 🤝
 
 **Irony / Meta**
+
 - /s `:sarcasm_tag:`, clownery 🤡, cyberbully me 💻😈, chaotic good 😇, s p a c e d 🪐
 
 ### 4. Objects & Concepts
 
 **Communication**
+
 - dm ✉️, thread 🧵, ghost 👻, lurking 🥷, ping 📳, inbox 📥, unread 🔴
 
 **Tech / Work**
+
 - deploy 🚀, merge ➕, bug 🐞, prod 🔥, on-call 📟, crunch ⏳, caffeine ☕, ship 📦
 
 **Life & Self-care**
+
 - hydrate 💧, stretch 🧘, break ☕, burnout 🔥🧠, nap 😴, therapy 🛋️, journaling 📓
 
 **Money & Logistics**
+
 - payday 💸, broke 🪙, invoice 📄, expenses 🧾, rent 🏠, deal 🤝
 
 ### 5. Activities & Events
 
 **Daily Flow**
+
 - commute 🚇, errands 🛒, chores 🧹, cooking 🍳, meal prep 🥗
 
 **Celebration**
+
 - birthday 🎂, anniversary 💍, promotion 🥂, launch 🚀, milestone 🎉
 
 **Gaming**
+
 - gg 🎮, clutch 🕹️, respawn ♻️, afk ⏸️, nerf 🔧, buff 🛡️
 
 **Creative & Learning**
+
 - brainstorm 💡, sketch ✏️, collab 🤝, study 📚, deep dive 🧠, research 🔍
 
 ### 6. Nature & Environment
 
 **Weather Mood**
+
 - sunny optimism ☀️, cloudy meh ☁️, stormy mood 🌩️, foggy brain 🌫️, rainbow hope 🌈
 
 **Seasons & Vibes**
+
 - cozy autumn 🍂, bloom 🌸, heatwave 🥵, winter hush ❄️
 
 **Natural Symbols**
+
 - mountain goal ⛰️, ocean calm 🌊, forest retreat 🌲, desert dry 🏜️
 
 ### 7. Symbols & Abstract Tone
 
 **Status & Signals**
+
 - green check ✅, in progress 🔄, blocked 🧱, alert 🚨, low battery 🔋, do not disturb 🚫
 
 **Progress & Process**
+
 - loading ⏳, buffering 🔁, queued 📋, shipped 📦, archived 🗄️
 
 **Magic & Whimsy**
+
 - sparkles ✨, portals 🌀, dreamstate 🌙, portal cat 😼🌀, glitch 💥
 
 **Meta Tone Tags**
+
 - sincere `:sincere_tag:`, sarcasm `:sarcasm_tag:`, venting `:vent_tag:`, hype `:hype_tag:`
 
 ### 8. Cultural & Regional Flavors
 
 **Global Greetings & Gestures**
+
 - namaste 🙏, salute 🫡, bow 🙇, wai 🙏🏼, fist bump 👊, peace ✌️, shaka 🤙
 
 **Festivals & Traditions**
+
 - diwali 🪔, holi 🎨, hanukkah 🕎, eid 🌙, lunar new year 🧧, carnival 🎭, pride 🏳️‍🌈
 
 **Food & Slang Mashups**
+
 - chai ☕, boba 🧋, ramen 🍜, tacos 🌮, biryani 🍛, bbq 🍖, dumpling 🥟
 - slang like sus (🕵️), fam (👨‍👩‍👧), bruv (🧢), savage (😤), gassed (💨)
 
 **Regional Mood Tags**
+
 - island time 🏝️, monsoon mood 🌧️, desert heat 🏜️, metro rush 🚇, countryside calm 🚜
 
 ### 9. Professional & Domain-Specific
 
 **Medical & Wellness**
+
 - scrubs 🩺, on rounds 🚑, lab work 🧪, mental health check 🧠, meds 💊, rest order 🛏️
 
 **Education & Academia**
+
 - lecture 🎓, syllabus 📄, finals 😵‍💫, publish 📚, citation 🔖, lab partner 🧑‍🔬, thesis 🧾
 
 **Finance & Ops**
+
 - quarterly 📊, audit 🧾, green arrows 📈, red arrows 📉, compliance 🧷, runway ⏱️
 
 **Creative & Media**
+
 - storyboard 🎞️, render 🖥️, beat drop 🎶, encore 🔁, draft ✍️, editorial ✂️
 
 **Safety & Field Work**
+
 - PPE 🦺, hard hat ⛑️, site visit 🚧, weather hazard 🌪️, field note 🗒️
 
 ### 10. Syntax & Meta Modifiers
 
 **Intensity Markers**
+
 - low 🔹, medium 🔸, high 🔺, ultra 💥, holding-back 😶‍🌫️
 
 **Time & Urgency**
+
 - ASAP ⚡, queue ⏳, tomorrow 📅, weekender 🛻, midnight 🌔, crunch time ⏱️
 
 **Conversation Controls**
+
 - spoiler 🚫👀, tangent 🔀, back_on_topic 🔁, receipts 📸, fact_check ✅
 
 **Tone Switches**
+
 - sincerity `:tone_sincere:`, sarcasm `:tone_sarcastic:`, whisper `:tone_soft:`, loud `:tone_loud:`
 
 ---
@@ -177,12 +221,17 @@ Typoji relies on a deeply layered taxonomy so it can understand nuance, sarcasm,
 3. **Custom tokens** — entries without perfect Unicode matches use placeholder labels (e.g., `:deadpan_face:`). These can later map to custom SVG/GIF assets shipped with the extension.
 
 Example leaf entry (pre-flattened):
+
 ```json
 {
   "emotions": {
     "nuanced": {
       "deadpan_sarcasm": {
-        "lovely": { "emoji": ":deadpan_face:", "priority": 95, "aliases": ["amazing", "iconic"] }
+        "lovely": {
+          "emoji": ":deadpan_face:",
+          "priority": 95,
+          "aliases": ["amazing", "iconic"]
+        }
       }
     }
   }
@@ -190,6 +239,7 @@ Example leaf entry (pre-flattened):
 ```
 
 Flat lookup produced at load time:
+
 ```json
 {
   "lovely": {
@@ -303,3 +353,14 @@ The second command compiles `src/extension/content.ts` into `dist/extension/cont
 - Provides an inline confirmation chip for confirm-mode replacements, ensuring replacements never obscure page layout and dismiss automatically on blur or outside click.
 
 Future work will add a popup UI to expose the stored settings and allow per-site overrides.
+
+---
+
+## Code Quality & Formatting
+
+Typoji enforces modern standards with ESLint (flat config, strict type-aware rules) and Prettier.
+
+- `pnpm lint` — full ESLint sweep using `typescript-eslint` strict/stylistic configs.
+- `pnpm lint:fix` — same as above with auto-fixes enabled.
+- `pnpm format` — Prettier write mode, covering TS/JSON/MD/assets.
+- `pnpm format:check` — CI-friendly Prettier verification.
